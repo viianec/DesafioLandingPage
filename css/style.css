@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.imagem-capa{
+height: 450px;    
+width: 100%;
+object-fit: cover;
+object-position: 0% 64%;
+margin-bottom: auto;
+
+}
+
+.section-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-section{
+    background-color: rgba(247, 198, 108, 0.884);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#texto{
+    font-size: 1.50rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 0 1em;
+}
+
+#background-section1{
+    background-color: rgba(247, 198, 108, 0.884);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    display: flex;
+}
+
+.card p{
+    padding: 0em;
+    text-align: center;
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(to right,
+      rgb(255, 0, 34) 20%,
+      rgb(243, 141, 7) 20%, rgb(23, 146, 33) 40%,
+      rgba(51, 165, 23, 0.856) 40%, rgba(88, 172, 20, 0.527) 60%,
+      rgb(41, 161, 17) 60%, rgb(255, 0, 149) 80%,
+      purple 80%
+    );
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.card button{
+    height: 3em;
+    
+    
+}
+
+.prod1{
+    max-width: 30em;
+    background: #ffffff;
+    border-radius: 2em;
+    margin: 2em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    transition: transform 300ms ease;
+}
+
+.prod1:hover {
+    transform: scale(1.1);
+}
+
+
+
+.card-container{
+    background: rgb(243, 119, 3);
+    border-radius: 25px;
+    padding: 40px;
+    max-width: 500px;
+}
+input{
+
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 12px;
+    font-family:'Courier New', Courier, monospace;
+    font-style:normal;
+    color: rgb(0, 0, 0);
+}
+
+form{
+    display: grid;
+}
+
+footer{
+    height: 20px;
+    text-align: center;
+    background-color: bisque;
+}
